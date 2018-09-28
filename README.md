@@ -15,7 +15,7 @@ zocker160/ksp-lmp-docker:latest
 
 Additional parameters:
 
-// TODO
+*none yet - but you can create a [issue](https://github.com/zocker-160/KSP-LMP-docker/issues) on GitHub if you have an idea* ;)
 
 #### The public server list can be found [here](http://lunamultiplayer.com/pages/releaseservers.html).
 
