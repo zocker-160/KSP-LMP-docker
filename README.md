@@ -9,7 +9,7 @@ docker run \
  --name "LMP Server" \
  -p 8800:8800 \
  -p 8801:8801 \
- -v <insert/path/here>:/Luna-docker/LMPServer \
+ -v <insert/path/here>:/Luna-docker/LMPServer:rw \
 zocker160/ksp-lmp-docker:latest
 ```
 
