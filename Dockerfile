@@ -1,11 +1,10 @@
-FROM debian:stretch-slim
+FROM mono
 
 MAINTAINER zocker-160
 
 RUN \
-	mkdir /Luna-docker \
-	&& apt-get update \
-	&& apt-get install -y git mono-devel jq curl wget unzip nano
+	apt-get update \
+	&& apt-get install -y jq curl wget unzip nano
 
 # get latest LMP release
 
@@ -21,6 +20,6 @@ RUN mkdir logs
 EXPOSE 8800/udp
 EXPOSE 8801/udp
 
-VOLUME ["/Luna-docker/LMPServer"]
+VOLUME /Luna-docker/LMPServer
 
-CMD ["mono", "Server.exe"]
+CMD mono Server.exe
