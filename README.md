@@ -10,13 +10,12 @@ To start the docker image run:
 docker run \
  --name "LMP Server" \
  -p 8800:8800 \
- -v <insert/path/here>:/Luna-docker/LMPServer:rw \
-zocker160/ksp-lmp-docker:latest
+zocker160/ksp-lunamultiplayer-slim:latest
 ```
 ## Usage
 
 - `-p 8800:8800` LMP game server port (default 8800)
-- `-v <insert/path/here>:/Luna-docker/LMPServer:rw` The location to store all your permanent files (logs, config and more)
+- *(optional)* `-v <insert/path/here>:/Luna-docker/LMPServer:rw` The location to store all your permanent files (logs, config and more)
 
 #### Additional parameters:
 
