@@ -15,7 +15,7 @@ zocker160/ksp-lunamultiplayer:latest
 ## Usage
 
 - `-p 8800:8800` LMP game server port (default 8800)
-- *(optional)* `-v <insert/path/here>:/Luna-docker/LMPServer:rw` The location to store all your permanent files (logs, config and more)
+- *(optional)* `-v insert/path/here:/Luna-docker/LMPServer:rw` The location to store all your permanent files (logs, config and more)
 
 #### Additional parameters:
 
@@ -24,7 +24,7 @@ zocker160/ksp-lunamultiplayer:latest
 #### The public server list can be found [here](http://lunamultiplayer.com/pages/releaseservers.html).
 
 ## Extra bits
-[Docker Hub page](https://hub.docker.com/r/zocker160/ksp-lmp-docker/)  
+[Docker Hub page](https://hub.docker.com/r/zocker160/ksp-lunamultiplayer)  
 [GitHub page](https://github.com/zocker-160/KSP-LMP-docker)
 
 [LMP GitHub repo](https://github.com/LunaMultiplayer/LunaMultiplayer)  
