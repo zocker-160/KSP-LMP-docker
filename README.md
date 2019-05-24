@@ -1,4 +1,4 @@
-# A lightweight KSP Lunamultiplayer (LMP) docker image
+# A simple KSP Lunamultiplayer (LMP) docker image
 This docker image is based on the [Lunamultiplayer](https://github.com/LunaMultiplayer/LunaMultiplayer) mod and creates a server for Kerbal Space Program.
 
 It automatically downloads the latest release of LMP during first deployment.
@@ -10,7 +10,7 @@ To start the docker image run:
 docker run \
  --name "LMP Server" \
  -p 8800:8800 \
-zocker160/ksp-lunamultiplayer-slim:latest
+zocker160/ksp-lunamultiplayer:latest
 ```
 ## Usage
 
